@@ -2,7 +2,7 @@
 
 ## Overview
 
-A web homepage for Armourguard Operators built with basic HTML
+A web homepage for Armourguard Operators built with basic HTML and CSS
 
 All sensitive information has been removed to comply with confidentiality requirements. If you believe there has been a breach in confidentiality please [contact](mailto:help@panoptes.live) an administrator immediately.
 

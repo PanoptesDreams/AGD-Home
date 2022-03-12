@@ -1,0 +1,39 @@
+body {
+	color: #F1F1F1;
+	link-color: #000000;
+	width: 35em;
+	margin: 0 auto;
+	font-family: Fira Sans, sans-serif;
+}
+  
+a:link, a:visited {
+	color: black;
+	background-color: #F1F1F1;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	color: #2BAFF4;
+	background-color: #004785;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	}
+
+a:active {
+	color: pink;
+	background-color: #004785;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline-block;
+}
