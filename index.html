@@ -17,11 +17,16 @@
 
 <body bgcolor=”#004785">
 
-  <br><a href=index.html> Home </a> <a href=help.html> Help </a>
   
-  <u><h1> Welcome Operator! </h1></u>
-  <br>
+  <u><h1> Welcome Operator! </h1></u><br>
   
+		<div id="searcherheader">
+			<form id="searchernewsearch" method="get" action="http://www.google.com/search" target="_blank">
+		        <input id="searcher" type="text" class="searchertextinput" name="q" size="21" maxlength="120">
+				<input type="submit" value="🔍" class="searcherbutton">
+			</form>
+		</div>
+		
   <u><h3> Internal Tools </h3></u>
   
   <a href="help.html" target="_blank"> APP </a> <a href="help.html" target="_blank"> APP </a> <a href="help.html" target="_blank"> APP </a><br>
@@ -33,6 +38,19 @@
   <a href="https://www.google.com" target="_blank"> Google Search </a>
   
   
+		<div class="baseDiv"> <a href="index.html" class="baseButton"> Home </a>
+
+		<a href="help.html" class="baseButton"> Help </a> </div>
+		
+		<div class="baseBuffer">
+		<p>. </p>
+		</div>
+		
 </body>
-  
+  <script>
+window.onload = function() {
+  document.getElementById("searcher").focus();
+};
+
+</script>
 </html>

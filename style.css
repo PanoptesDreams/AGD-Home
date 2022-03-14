@@ -9,7 +9,9 @@ body {
 a:link, a:visited {
 	color: black;
 	background-color: #F1F1F1;
-	border-radius: 5px;
+	border-radius: 5px 10px;
+	box-shadow: 1px 0px 3px 0px black, 1px 5px 1px 0px grey;
+	margin: 3px;
 	padding: 5px 15px;
 	text-align: center;
 	text-decoration: none;
@@ -19,7 +21,9 @@ a:link, a:visited {
 a:hover {
 	color: #2BAFF4;
 	background-color: #004785;
-	border-radius: 5px;
+	border-radius: 5px 10px;
+	box-shadow: 1px 0px 3px 0px black, 1px 5px 1px 0px grey;
+	margin: 3px;
 	padding: 5px 15px;
 	text-align: center;
 	font-weight: bold;
@@ -30,10 +34,81 @@ a:hover {
 a:active {
 	color: pink;
 	background-color: #004785;
-	border-radius: 5px;
+	border-radius: 5px 10px;
+	box-shadow: 1px 3px 1px 0px grey;
+	margin: 3px;
 	padding: 5px 15px;
 	text-align: center;
 	font-weight: bold;
 	text-decoration: underline;
 	display: inline-block;
 }
+
+
+a.baseButton:link, a.baseButton:visited {
+	color: black;
+	background-color: #F1F1F1;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a.baseButton:hover {
+	color: #FFFFFF;
+	background-color: #FF2C58;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	}
+
+a.baseButton:active {
+	color: black;
+	background-color: #FFC0CB;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+.baseDiv {
+	position: fixed;
+	bottom: 0px;
+}
+
+.baseBuffer{
+	color: #66023C;
+}
+
+
+#searcher{
+		
+	}
+	#newSearcher{
+		padding: 5px;
+	}
+	.searchertextinput{
+		margin: 0;
+		padding: 10px 15px;
+		border: 1px solid;
+	}
+	.searcherbutton {
+		margin: 0;
+		padding: 10px 15px;
+		cursor: pointer;
+		text-align: center;
+		color: #ffffff;
+		border: solid 1px;
+		background: #F1F1F1;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.searcherbutton:hover {
+		background: #FF2C58;
+	}
