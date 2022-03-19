@@ -1,12 +1,33 @@
 body {
 	color: #F1F1F1;
-	link-color: #000000;
-	width: 35em;
+	background-color: #004785;
+	background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	width: 66vw;
 	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
 	font-family: Fira Sans, sans-serif;
 }
-  
+    
 a:link, a:visited {
+	color: #F1F1F1;
+	font-weight: bold;
+}
+ 
+a:hover {
+	color: #FF2C58;
+	font-weight: bold;
+}
+
+a:active {
+	color: #FFC0CB;
+	font-weight: bold;
+}
+
+a.lbutton:link, a.lbutton:visited {
 	color: black;
 	background-color: #F1F1F1;
 	border-radius: 5px 10px;
@@ -18,7 +39,7 @@ a:link, a:visited {
 	display: inline-block;
 }
 
-a:hover {
+a.lbutton:hover {
 	color: #2BAFF4;
 	background-color: #004785;
 	border-radius: 5px 10px;
@@ -31,7 +52,7 @@ a:hover {
 	display: inline-block;
 	}
 
-a:active {
+a.lbutton:active {
 	color: pink;
 	background-color: #004785;
 	border-radius: 5px 10px;
@@ -80,12 +101,12 @@ a.baseButton:active {
 .baseDiv {
 	position: fixed;
 	bottom: 0px;
+	padding-top: 10px;
 }
 
-.baseBuffer{
-	color: #66023C;
+.labelicon {
+	padding-right: 3px;
 }
-
 
 #searcher{
 		

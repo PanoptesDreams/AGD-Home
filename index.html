@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,16 @@
   
 </head>
 
-<body bgcolor=”#004785">
+<body>
+		
+		<!-- This is a simple button
+			href is the destination website
+			target is a new tab
+			img src is the website's favicon address
+			style fits icon in bounds of text
+			alt describes the icon image, this is an accessibility feature
+			-->
+		<!-- <a class="lButton" href="https://www.website.com" target="_blank"> <img class="labelicon" src="https://www.website.com/favicon.ico" style="max-width:14px" alt="name icon"> Website </a> -->
 
   
   <u><h1> Welcome Operator! </h1></u><br>
@@ -29,28 +39,22 @@
 		
   <u><h3> Internal Tools </h3></u>
   
-  <a href="help.html" target="_blank"> APP </a> <a href="help.html" target="_blank"> APP </a> <a href="help.html" target="_blank"> APP </a><br>
-  <br>
+  <a class="lButton" href="https://www.website.com" target="_blank"> <img class="labelicon" src="https://www.website.com/favicon.ico" style="max-width:14px" alt="name icon"> Website </a>
     
   <u><h3> Quick Links </h3></u>
   
-  <a href="https://barcode.tec-it.com/en/?data=hello%20world" target="_blank"> Barcode Generator </a> 
+  <a href="https://barcode.tec-it.com/en/?data=hello%20world" target="_blank"> Barcode Generator </a>
+  <a class="lButton" href="https://barcode.tec-it.com/en/?data=hello%20world" target="_blank"> <img class="labelicon" src="https://barcode.tec-it.com/favicon.ico" style="max-width:14px" alt="barcode dot tech icon"> Barcode Generator </a>
   <a href="https://www.google.com" target="_blank"> Google Search </a>
-  
-  
-		<div class="baseDiv"> <a href="index.html" class="baseButton"> Home </a>
-
-		<a href="help.html" class="baseButton"> Help </a> </div>
+  <div class="baseDiv">
 		
-		<div class="baseBuffer">
-		<p>. </p>
+		<a href="index.html" class="baseButton"> 🏡 Home </a>
+
+		<a href="help.html" class="baseButton"> 🆘 Help⁉ 🤔 </a>
+		
 		</div>
 		
+		<script src="index.js" />	
 </body>
-  <script>
-window.onload = function() {
-  document.getElementById("searcher").focus();
-};
 
-</script>
 </html>
