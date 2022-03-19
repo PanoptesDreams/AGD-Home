@@ -17,7 +17,7 @@ Shortcut URL's to internal applications and their labels must be added manually 
 
 ## Links 
 
-A live preview of the template can be found [here](https://panoptesdreams.github.io/armourguardhome/)
+A live preview of the template can be found [here](https://panoptesdreams.github.io/agd-home/)
 
 For more Operator Resources please visit our [website](https://www.panoptes.live/armourguard/)
 
